@@ -1,0 +1,90 @@
+{
+    "product_name" : "Test Product",
+    "transform" : {
+                    "location" : { "x" : 1 , "y" : 2 , "z": 3},
+                    "rotation" :  { "x" : 0 , "y" : 0 , "z": 0},
+                    "scale"    :  { "x" : 1 , "y" : 1 , "z": 1}
+                  },
+    "thumbnail"     : "./thumbnail.jpg",
+    "description"   : "Test product description",
+    "proxy"         : "prefab_not_used.prefab",
+    "modules"       : [
+                        {
+                            "assembled_transform" :{
+                                "location" : { "x" : 4 , "y" : 4 , "z": 4},
+                                "rotation" :  { "x" : 0 , "y" : 0 , "z": 0},
+                                "scale"    :  { "x" : 1 , "y" : 1 , "z": 1}
+                                },
+                            "disassembled_transform" :{
+                                "location" : { "x" : 5 , "y" : 5 , "z": 5},
+                                "rotation" :  { "x" : 0 , "y" : 0 , "z": 0},
+                                "scale"    :  { "x" : 1 , "y" : 1 , "z": 1}
+                                },
+                            "module_id" : "a2b2"
+                        }
+                    ],               
+    
+    "modules_master" : 
+                    [
+                        {
+                            "id" : "a2b2",
+                            "name" : "Test_module_1",
+                            "description" : "Test_module_1_descritption",
+                            "hlod"  : "Test_module_1_hlod.prefab",
+                            "thumbnail" : "Test_module_1_thumbnail.jpg", 
+                            "parts" : 
+                            [
+                                {
+                                    "Assembled_Transform" :{
+                                           "location" : { "x" : 6 , "y" : 0 , "z": 0},
+                                            "rotation" :  { "x" : 0 , "y" : 0 , "z": 0},
+                                            "scale"    :  { "x" : 1 , "y" : 1 , "z": 1}
+                                        },
+                                    "Disassembled_Transform" :{
+                                        "location" : { "x" : 7 , "y" : 0 , "z": 0},
+                                        "rotation" :  { "x" : 0 , "y" : 0 , "z": 0},
+                                        "scale"    :  { "x" : 1 , "y" : 1 , "z": 1}
+                                        },
+                                    "part_id" : "b1b2"
+                                }
+                            
+                            ]
+                        }
+                    ],
+    "parts_master" : 
+        [
+            {
+                "id" : "b1b2",
+                "name" : "Part_1",
+                "description" : "Test_Part_descriptioon",
+                "lod"  : "Test_part_1_lod.prefab" ,
+                "thumbnail" : "Test_part_1_thumbnail.jpg", 
+                "type" : "Generic", 
+                "static_mesh" : "Test_part_mesh.fbx",
+                "assembled_transform" :{
+                   "location" : { "x" : 8 , "y" : 0 , "z": 0},
+                    "rotation" :  { "x" : 0 , "y" : 0 , "z": 0},
+                    "scale"    :  { "x" : 1 , "y" : 1 , "z": 1}
+                },
+                "Disassembled_Transform" :{
+                    "location" : { "x" : 9 , "y" : 0 , "z": 0},
+                    "rotation" :  { "x" : 0 , "y" : 0 , "z": 0},
+                    "scale"    :  { "x" : 1 , "y" : 1 , "z": 1}
+                },
+
+                "Grip_Location" : { "x" : 10 , "y" : 10 , "z": 10},
+                "actions":[
+                    {
+                        "type" : "Screw",
+                        "initial_screw_distance" : 1,
+                        "screw_distance" : 0,
+                        "unscrew_distance" : 1
+                        
+                    }
+                ]
+                        
+            }
+            
+        ]
+
+}
