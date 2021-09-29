@@ -1,9 +1,9 @@
 {
     "product_name" : "Test Product",
     "transform" : {
-                    "location" : { "x" : 1 , "y" : 2 , "z": 3},
-                    "rotation" :  { "x" : 6 , "y" : 5 , "z": 2},
-                    "scale"    :  { "x" : 1 , "y" : 1 , "z": 1}
+                    "location" : { "x" : "1" , "y" : "2" , "z": "3"},
+                    "rotation" :  { "x" : "6" , "y" : "5" , "z": "2"},
+                    "scale"    :  { "x" : "1" , "y" : "1" , "z": "1"}
                   },
     "thumbnail"     : "./thumbnail.jpg",
     "description"   : "Test product description",
