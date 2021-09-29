@@ -72,13 +72,13 @@
                     "scale"    :  { "x" : 1 , "y" : 1 , "z": 1}
                 },
 
-                "grip_location" : { "x" : 10 , "y" : 10 , "z": 10},
+                "grip_location" : { "x" : "10" , "y" : "10" , "z": "10"},
                 "actions":[
                     {
                         "type" : "Screw",
-                        "initial_screw_distance" : 1,
-                        "screw_distance" : 4,
-                        "unscrew_distance" : 1
+                        "initial_screw_distance" : "1",
+                        "screw_distance" : "4",
+                        "unscrew_distance" : "1"
                         
                     }
                 ]
